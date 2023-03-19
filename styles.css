@@ -133,3 +133,22 @@ h2 {
     font-weight:bolder;
     color:#1F2937;
 }
+
+blockquote {
+    background-color: #E5E7EB;
+    margin: 0;
+    padding-top:30px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+}
+cite {
+    align-self: self-end;
+}
+div.quote > blockquote > p#quote {
+    font-style: italic;
+    font-weight: bold;
+}
